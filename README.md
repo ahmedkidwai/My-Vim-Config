@@ -1,5 +1,5 @@
 # My-Vim-Config
-
+***
 ###### Purpose:
 - The purpose of this vim repository is to document the creation of my own .vimrc file for education purposes.
 
