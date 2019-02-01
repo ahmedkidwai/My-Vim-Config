@@ -1,3 +1,13 @@
+"Copy/paste to clipboard
+set clipboard=unnamedplus
+
+
+"Python Comment boiler plate
+imap <C-b> """""#========================================================================PURPOSE-------INPUT-------RETURN-------# ========================================================================"""
+
+set rtp+=~/.fzf
+
+
 
 "Set Line Number
 set number
@@ -8,10 +18,9 @@ set mouse=a
 "Syntax highlighting and theme
 syntax on
 colorscheme gruvbox
-
+set bg=dark
 "Turns on true colors
 set termguicolors
-
 
 "Backspace
 set backspace=indent,eol,start
@@ -19,8 +28,7 @@ set backspace=indent,eol,start
 "Tabbing
 set tabstop=4
 set shiftwidth=4
-set expandtab
-
+set expandtab 
 
 
 "Vundle Plugin Manager Start
@@ -32,7 +40,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
-
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
@@ -40,6 +47,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 "NERD TREE INSTALL
 Plugin 'scrooloose/nerdtree'
+
+"FZF
+Plugin 'junegunn/fzf.vim'
+
+
 
 "Gruvbox 
 Plugin 'morhetz/gruvbox'
@@ -77,4 +89,9 @@ filetype plugin indent on    " required
 "Nerdtree Hotkey, notice toggle 
 map <silent> <C-n> :NERDTreeToggle<CR>
 
+"Auto append characters
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
 
