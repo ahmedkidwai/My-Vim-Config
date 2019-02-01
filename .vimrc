@@ -1,3 +1,12 @@
+" Author: Ahmed Kidwai (Plugins belong to their respected authors)
+" Date: January 31, 2019
+" Overview: This is my .vimrc file. I am hosting it to educate others on what
+" vim can do. Please do not simply download and use this file. It's better to
+" understand what's going on than just aimlessly hoping all the features you
+" want are here (they probably aren't). I'll be using this as a framework to
+" build off of for my own needs and a place to download my .vimrc in the event
+" I am working on a new machine. 
+
 "Set Line Number
 set number
 
@@ -59,5 +68,6 @@ filetype plugin indent on    " required
 
 "Nerdtree Hotkey, notice toggle 
 map <silent> <C-n> :NERDTreeToggle<CR>
+
 
 
