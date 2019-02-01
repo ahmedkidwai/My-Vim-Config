@@ -1,3 +1,4 @@
+
 "Set Line Number
 set number
 
@@ -7,6 +8,7 @@ set mouse=a
 "Syntax highlighting and theme
 syntax on
 colorscheme gruvbox
+
 "Turns on true colors
 set termguicolors
 
@@ -18,6 +20,8 @@ set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+
 
 "Vundle Plugin Manager Start
 set nocompatible              " be iMproved, required
@@ -37,8 +41,18 @@ Plugin 'VundleVim/Vundle.vim'
 "NERD TREE INSTALL
 Plugin 'scrooloose/nerdtree'
 
-"Gruvbox
+"Gruvbox 
 Plugin 'morhetz/gruvbox'
+
+"Airline
+Plugin 'vim-airline/vim-airline'
+
+"Indent matching
+Plugin 'nathanaelkane/vim-indent-guides'
+
+"Fugitive - GIt Wrapper
+Plugin 'tpope/vim-fugitive'
+
 
 " ***** Plugins END **********
 
