@@ -5,7 +5,7 @@ Presenting my .vimrc file. To be used as an educational tool for others (i.e act
 
 ### Preview:
 ![Preview](https://i.imgur.com/cRHGMTK.png)
-
 ###### Font: Droid Sans Mono
+
 ### License
 [MIT License](https://opensource.org/licenses/MIT)
