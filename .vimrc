@@ -1,10 +1,6 @@
 "Copy/paste to clipboard
 set clipboard=unnamedplus
 
-
-"Python Comment boiler plate
-imap <C-b> """""#========================================================================PURPOSE-------INPUT-------RETURN-------# ========================================================================"""
-
 set rtp+=~/.fzf
 
 
