@@ -3,8 +3,6 @@ set clipboard=unnamedplus
 
 set rtp+=~/.fzf
 
-
-
 "Set Line Number
 set number
 
@@ -13,7 +11,7 @@ set mouse=a
 
 "Syntax highlighting and theme
 syntax on
-colorscheme gruvbox
+
 set bg=dark
 "Turns on true colors
 set termguicolors
@@ -91,3 +89,4 @@ inoremap {<CR>  {<CR>}<Esc>O
 inoremap {{     {
 inoremap {}     {}
 
+colorscheme gruvbox
